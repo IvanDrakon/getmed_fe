@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-main: var(--font-kumbh-sans);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background-color: #f1f3f2;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-input {
+  @apply min-w-100 border-b-[2px] p-1 rounded mb-1;
+}
+
+.form-span {
+  @apply !pt-2;
+}
+
+.fc-col-header-cell {
+  @apply !bg-[#f1f3f2] border-[#f1f3f2];
+}
+
+.fc-scrollgrid {
+  @apply !bg-[#f1f3f2] !flex !flex-col !items-center !justify-center !border-[#f1f3f2];
+}
+
+.fc-timegrid-col {
+  @apply !border-none !justify-center !items-center;
+}
+
+.fc-timegrid-slot {
+  height: 1px !important;
+  @apply !text-transparent !bg-[#f1f3f2] !border-[#f1f3f2];
+}
+
+.fc-event {
+  @apply !flex !justify-center !items-center !text-sm !font-medium !border-none bg-transparent !p-5;
+}
+
+.fc-theme-standard .fc-scrollgrid {
+  @apply !border-none;
+}
+
+.fc td,
+.fc th {
+  border-style: none !important;
+}
+
+.fc-timegrid-axis {
+  display: none !important;
+}
+
+.fc-timegrid-axis-frame {
+  width: 0 !important;
+}
+
+.fc-timegrid-slots {
+  margin-left: 0 !important;
+}
+
+.label-calendar::first-letter {
+  text-transform: capitalize;
+}
+
+.fc-slats td {
+  height: 10px !important;
+}

@@ -1,0 +1,57 @@
+{
+  "professional-models": [
+    {
+      "id": 1,
+      "name": "José Inácio",
+      "profession": "Psicólogo",
+      "description": "Especialista em saúde mental, ajudando pacientes a superar desafios emocionais.",
+      "rating": 4,
+      "date": "10 Abr 2025, 11:00",
+      "address": "Cotia, São Paulo",
+      "image": "public/placeholder-doctor.png"
+    },
+    {
+      "id": 2,
+      "name": "Roberto Bonifacio",
+      "profession": "Cardiologista",
+      "description": "Especialista na saúde do coração e vasos sanguineos, ajudando na prevenção de doenças e indicações de tratamentos adequado de forma individual.",
+      "rating": 4.5,
+      "date": "30 Jul 2025, 11:00",
+      "address": "Colombo, Paraná",
+      "image": "public/placeholder-doctor.png"
+    },
+    {
+      "id": 3,
+      "name": "Samuel Rodrigez",
+      "profession": "Oncologista",
+      "description": "Especialista no diaginóstico e tratamento do câncer, avaliando quadros clínicos de pacientes e orientando sobre o melhor tratamento.",
+      "rating": 4.1,
+      "date": "14 Mar 2025, 11:00",
+      "address": "Curitiba, Paraná",
+      "image": "public/placeholder-doctor.png"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "Camila Santos",
+      "email": "CamilaSantos@example.com",
+      "password": "camila123",
+      "image": "public/placeholder-doctor.png"
+    },
+    {
+      "id": 2,
+      "name": "Michael Roberto",
+      "email": "MichaelRoberto@example.com",
+      "password": "michael123",
+      "image": "public/placeholder-doctor.png"
+    },
+    {
+      "id": 3,
+      "name": "Rodrigo Santoro",
+      "email": "RodrigoSantoro@example.com",
+      "password": "rodrigo123",
+      "image": "public/placeholder-doctor.png"
+    }
+  ]
+}
